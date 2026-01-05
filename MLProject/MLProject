@@ -1,0 +1,11 @@
+name: training-model
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      n_estimators: {type: int, default: 32}
+      max_depth: {type: int, default: 12}
+      dataset : {type: string, default: "covid19-patient-symptoms-diagnosis_preprocessing.csv"}
+    command: "python modelling.py {n_estimators} {max_depth} {dataset}"
