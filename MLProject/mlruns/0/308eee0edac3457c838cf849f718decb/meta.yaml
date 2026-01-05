@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI_SML_Siddi-Ardhana/Workflow-CI_SML_Siddi-Ardhana/MLProject/mlruns/0/308eee0edac3457c838cf849f718decb/artifacts
+end_time: 1767606726333
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 308eee0edac3457c838cf849f718decb
+run_name: marvelous-carp-926
+run_uuid: 308eee0edac3457c838cf849f718decb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767606719130
+status: 3
+tags: []
+user_id: runner
