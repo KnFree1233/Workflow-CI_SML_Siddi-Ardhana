@@ -42,7 +42,7 @@ jobs:
           git config --local user.email "github-actions[bot]@user.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-          git commit -m "Auto-trained model [skip ci]"
+          git commit -m "Auto-trained model"
           git push
         shell: pwsh
 
