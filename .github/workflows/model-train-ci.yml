@@ -48,8 +48,8 @@ jobs:
 
       - name: Get Latest Run
         run: |
-          echo "RUN_ID=${{ steps.mlrun_step.outputs.run_id }}"" >> $GITHUB_ENV
-          echo "Found Run ID: ${{ env.RUN_ID }}"
+          echo "RUN_ID=${{ steps.mlrun_step.outputs.run_id }}" >> $GITHUB_ENV
+          echo "Found Run ID: ${{ steps.mlrun_step.outputs.run_id }}"
 
       - name: Build docker image
         env:
