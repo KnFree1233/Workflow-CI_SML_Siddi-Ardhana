@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI_SML_Siddi-Ardhana/Workflow-CI_SML_Siddi-Ardhana/MLProject/mlruns/0/5af735cff620433cb1a33ed04a015aee/artifacts
+end_time: 1767607020903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5af735cff620433cb1a33ed04a015aee
+run_name: debonair-ant-253
+run_uuid: 5af735cff620433cb1a33ed04a015aee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767607013198
+status: 3
+tags: []
+user_id: runner
