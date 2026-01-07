@@ -1,0 +1,18 @@
+digest: f7652e0a
+name: dataset
+profile: '{"num_rows": 1000, "num_elements": 16000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "long", "name": "gender", "required": true}, {"type": "long", "name": "fever",
+  "required": true}, {"type": "long", "name": "dry_cough", "required": true}, {"type":
+  "long", "name": "sore_throat", "required": true}, {"type": "long", "name": "fatigue",
+  "required": true}, {"type": "long", "name": "headache", "required": true}, {"type":
+  "long", "name": "shortness_of_breath", "required": true}, {"type": "long", "name":
+  "loss_of_smell", "required": true}, {"type": "long", "name": "loss_of_taste", "required":
+  true}, {"type": "double", "name": "oxygen_level", "required": true}, {"type": "double",
+  "name": "body_temperature", "required": true}, {"type": "long", "name": "comorbidity",
+  "required": true}, {"type": "long", "name": "travel_history", "required": true},
+  {"type": "long", "name": "contact_with_patient", "required": true}, {"type": "long",
+  "name": "chest_pain", "required": true}]}'
+source: '{"tags": {"mlflow.user": "runner", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "7ff13ebebc6362aecaccbb16ac4769da2515eeca"}}'
+source_type: code
